@@ -7,7 +7,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><img height="400" width="700" src="imagerush.png" alt="ImageRush in action"></td>
+      <td><img height="500" width="850" src="imagerush.png" alt="ImageRush in action"></td>
     </tr>
   </table>
 </div>
