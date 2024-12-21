@@ -1,26 +1,65 @@
-# **ImageRush** 🌟
+<div align="center">
+  <h1><code>ImageRush</code></h1>
+  <p><strong>A sleek, fast, and user-friendly image downloader that makes grabbing images from any URL a breeze!</strong></p>
+  <p><a href="https://imagerush.vercel.app/">Visit ImageRush</a></p>
+</div>
 
-**ImageRush** is a sleek image downloader tool that lets you grab images from any URL, just by entering a base URL and specifying the image range. Download as many images as you need with a single click! 🎉
+## 📖 Table of Contents
 
----
-
-## 🚀 **How to Use**
-
-1. **Enter the Base URL** – where your images live.  
-   (e.g., `https://example.com/images/`)
-   
-2. **Set the Range** – start and end numbers for images (e.g., `1` to `20`).
-
-3. **Click** "Download Images" and let **PicFlare** do its magic! ✨
-
----
-
-## 🔥 **Features**
-
-- Fast, one-click image download.
-- Customizable range (from 1 to however many images you need!).
-- Progress updates while it works its charm.
-- Cool and responsive design. 🖤
+- [Introduction](#ℹ️-introduction)
+- [Features](#🔥-features)
+- [Usage](#🚀-usage)
+- [Contribution](#🤝-contribution)
+- [License](#📜-license)
 
 ---
 
+## ℹ️ Introduction
+
+**ImageRush** is your go-to tool for downloading images effortlessly. Just provide the base URL and specify the range, and let the magic happen! Whether you're working on a project or just hoarding memes, **ImageRush** has got your back. 🌟
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img height="300" width="400" src="screenshots/imagerush-demo.gif" alt="ImageRush in action"></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🔥 Features
+
+- **One-Click Downloads:** Grab all the images you need with a single click.  
+- **Custom Range Selection:** Specify the image range—no unnecessary downloads.  
+- **Progress Updates:** Watch your images load as the magic unfolds.  
+
+---
+
+## 🚀 Usage
+
+1. **Enter Base URL:** Provide the URL where your images are stored.  
+   Example: `https://example.com/images/`
+
+2. **Set Image Range:** Choose the start and end numbers.  
+   Example: From `1` to `20`.
+
+3. **Download:** Click "Download Images" and let **ImageRush** do the heavy lifting.  
+
+---
+
+## 🤝 Contribution
+
+Want to make **ImageRush** even better? Here's how you can help:  
+
+- Report bugs or suggest features.  
+- Fork the repo, make changes, and open a pull request.  
+- Share the tool with your friends and community.  
+
+---
+
+## 📜 License
+
+Licensed under the MIT License. See [LICENSE](LICENSE) for details.  
+
+---
