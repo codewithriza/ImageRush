@@ -17,9 +17,12 @@ document.getElementById('download-btn').addEventListener('click', async () => {
     output.innerHTML = 'Starting downloads...';
 
     // Function to create download link and trigger click
-    function downloadImage(i) {
-        const fileName = `${i}.webp`;
+    function downloadImage(i, format) {
+        const fileName = `${i}.${format}`;
         const url = `${baseUrl}${fileName}`;
+
+        // Check if the file exists (optional, may add further validation if needed)
+        // Assuming the file exists on the server, otherwise, you could implement a check for file existence
 
         // Create an anchor element to trigger download
         const link = document.createElement('a');
@@ -39,8 +42,19 @@ document.getElementById('download-btn').addEventListener('click', async () => {
 
     // Function to download images sequentially with delay
     async function downloadImages() {
+        const formats = ['webp', 'png'];  // Formats to try
+
         for (let i = startNum; i <= endNum; i++) {
-            downloadImage(i);
+            for (let format of formats) {
+                try {
+                    // Try downloading the image in the specified format
+                    downloadImage(i, format);
+                    break; // Break if download is successful
+                } catch (error) {
+                    // If there’s an error, try the next format
+                    console.error(`Failed to download image ${i} in format ${format}:`, error);
+                }
+            }
 
             // Wait for 500ms before downloading the next image
             await new Promise(resolve => setTimeout(resolve, 500)); // 500ms delay
