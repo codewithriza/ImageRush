@@ -40,6 +40,15 @@
 
 ## 🚀 Usage
 
+### Tutorial
+
+<a href="https://www.youtube.com/watch?v=y1rIHwC9D8Y">
+  <img height="50" width="90" src="https://cdn.pixabay.com/photo/2021/05/22/11/38/yt-6273367_640.png" alt="Image linking to YouTube video">
+</a>
+
+
+  
+
 1. **Enter Base URL:** Provide the URL where your images are stored.  
    Example: `https://example.com/images/`
 
