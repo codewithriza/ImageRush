@@ -21,7 +21,7 @@
 <div align="center">
   <table>
     <tr>
-      <td><img height="300" width="400" src="screenshots/imagerush-demo.gif" alt="ImageRush in action"></td>
+      <td><img height="300" width="400" src="screenshots/imagerush.png" alt="ImageRush in action"></td>
     </tr>
   </table>
 </div>
