@@ -1,8 +1,17 @@
 <div align="center">
   <h1><code>ImageRush</code></h1>
-  <p><strong>A sleek, fast, and user-friendly image downloader that makes grabbing images from any URL a breeze!</strong></p>
-  <p><a href="https://imagerush.vercel.app/">Visit ImageRush</a></p>
+  <p><strong>A sleek, fast, and user-friendly image downloader that makes grabbing images from any URL a breeze!<a href="https://imagerush.vercel.app/"> ImageRush</a></strong></p>
+  <p></p>
 </div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img height="400" width="700" src="Screenshots/imagerush.png" alt="ImageRush in action"></td>
+    </tr>
+  </table>
+</div>
+
 
 ## 📖 Table of Contents
 
@@ -18,13 +27,6 @@
 
 **ImageRush** is your go-to tool for downloading images effortlessly. Just provide the base URL and specify the range, and let the magic happen! Whether you're working on a project or just hoarding memes, **ImageRush** has got your back. 🌟
 
-<div align="center">
-  <table>
-    <tr>
-      <td><img height="400" width="700" src="Screenshots/imagerush.png" alt="ImageRush in action"></td>
-    </tr>
-  </table>
-</div>
 
 ---
 
