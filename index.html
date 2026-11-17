@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Rush</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Fav.png">
+</head>
+<body>
+
+    <!-- GitHub Logo link -->
+    <a href="https://github.com/codewithriza" target="_blank" id="github-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" id="github-logo">
+    </a>
+
+    <div class="container">
+        <h1>🚀 Image Rush</h1>
+        <p>Quickly download images by entering the URL and specifying the range. Let’s make your life easier!</p>
+
+        <!-- Base URL Input -->
+        <div class="input-container">
+            <label for="base-url">Base URL:</label>
+            <input type="text" id="base-url" placeholder="E.g., https://example.com/images/" required>
+        </div>
+
+        <!-- Range Input -->
+        <div class="input-container">
+            <label for="start-num">Start Number:</label>
+            <input type="number" id="start-num" value="1" min="1">
+        </div>
+
+        <div class="input-container">
+            <label for="end-num">End Number:</label>
+            <input type="number" id="end-num" value="5" min="1">
+        </div>
+
+        <!-- Download Button -->
+        <button id="download-btn">🔽 Start Download</button>
+
+        <!-- Output Section -->
+        <div class="output" id="output"></div>
+
+        <!-- YouTube Tutorial Link -->
+        <p class="tutorial-link">
+            Need help? Watch the <a href="https://www.youtube.com/watch?v=y1rIHwC9D8Y" target="_blank">Image Rush Tutorial</a>!
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Created with 💜 by <a href="https://github.com/codewithriza" target="_blank">Riza</a> | Twitter: <a href="https://twitter.com/pyriza" target="_blank">@pyriza</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
